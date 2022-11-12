@@ -434,50 +434,6 @@ $(function () {
     });
 
 
-    /* ===============================  slick Carousel  =============================== */
-
-    $('.testimonials .slic-item').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        centerMode: true,
-        arrows: true,
-        prevArrow: '.testimonials .prev',
-        nextArrow: '.testimonials .next',
-        dots: false,
-        autoplay: true,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    centerMode: false,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    centerMode: false,
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    centerMode: false,
-                }
-            }
-        ]
-    });
-
-    $('.testim-box .slic-item').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: true,
-        autoplay: true
-    });
-
 
     /* ===============================  Mouse Hover  =============================== */
 
@@ -487,37 +443,11 @@ $(function () {
 
     document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
 
-
-    /* ===============================  YouTubePopUp  =============================== */
-
-    $("a.vid").YouTubePopUp();
-
-
     /* ===============================  parallaxie  =============================== */
 
     $('.parallaxie').parallaxie({
         speed: 0.2,
         size: "cover"
-    });
-
-
-    /* ===============================  magnificPopup  =============================== */
-
-    $('.popup-img , .gallery').magnificPopup({
-        delegate: '.popimg',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-
-
-    /* ===============================  justifiedGallery  =============================== */
-
-    $('.justified-gallery').justifiedGallery({
-        rowHeight: 400,
-        lastRow: 'nojustify',
-        margins: 15
     });
 
 
