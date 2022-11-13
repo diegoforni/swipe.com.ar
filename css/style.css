@@ -1060,6 +1060,9 @@ a:hover, span:hover {
   text-transform: uppercase;
   letter-spacing: 10px;
   z-index: 9999999999;
+  display: flex;
+  
+  
 }
 
 .loading.isdone {
@@ -1076,6 +1079,7 @@ a:hover, span:hover {
 .loading span {
   -webkit-animation: loading 1.4s infinite alternate;
   animation: loading 1.4s infinite alternate;
+  min-width: 8%;
 }
 
 .loading span:nth-child(1) {
