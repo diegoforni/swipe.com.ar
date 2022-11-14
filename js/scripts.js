@@ -722,8 +722,11 @@ $(document).ready(function () {
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     // true for mobile device
-    var dontknowwhattodo = true;
+    var element = document.getElementById("contacto");
+    element.classList.add("iOS-device");
   }else{
+    var element = document.getElementById("contacto");
+    element.classList.add("notiOS-device");
     function mousecursor() {
         if ($("body")) {
             const e = document.querySelector(".cursor-inner"),

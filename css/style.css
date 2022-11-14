@@ -5188,6 +5188,14 @@ body {
   resize: both;
 }
 
+.notiOS-device {
+  background-attachment: fixed;
+}
+.iOS-device {
+  background-size: cover;
+  resize: both;
+}
+
 .call-action .content h6 {
   color: #12c2e9;
   font-size: 13px;
