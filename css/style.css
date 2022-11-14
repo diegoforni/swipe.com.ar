@@ -5185,9 +5185,10 @@ body {
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action {
   background-attachment: fixed;
-  background-size: cover;
 }
-
+.iOS-device {
+  will-change: transform;
+}
 
 .call-action .content h6 {
   color: #12c2e9;
