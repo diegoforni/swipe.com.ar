@@ -5184,10 +5184,8 @@ body {
 
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action {
-  background-attachment: fixed;
-  will-change: transform;
-  width: 100%;
-  height: auto;
+  background-size: cover;
+  resize: both;
 }
 
 .call-action .content h6 {
