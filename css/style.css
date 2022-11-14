@@ -5186,6 +5186,8 @@ body {
 .call-action {
   background-attachment: fixed;
   will-change: transform;
+  width: 100%;
+  height: auto;
 }
 
 .call-action .content h6 {
