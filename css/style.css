@@ -2258,6 +2258,9 @@ body {
   min-height: 98vh;
   padding-bottom: 50px;
 }
+.swiper-mobile{
+  max-height: 90vh !important;
+}
 
 .slider .parallax-slider .swiper-slide .bg-img {
   position: absolute;

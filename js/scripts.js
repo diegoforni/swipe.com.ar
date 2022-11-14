@@ -722,11 +722,14 @@ $(document).ready(function () {
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     // true for mobile device
-    var element = document.getElementById("contacto");
-    element.classList.add("iOS-device");
+    var contacto = document.getElementById("contacto");
+    contacto.classList.add("iOS-device");
+    var swiper = document.getElementById("swiper");
+    swiper.classList.add("swiper-mobile");
+    
   }else{
-    var element = document.getElementById("contacto");
-    element.classList.add("notiOS-device");
+    var contacto = document.getElementById("contacto");
+    contacto.classList.add("notiOS-device");
     function mousecursor() {
         if ($("body")) {
             const e = document.querySelector(".cursor-inner"),
