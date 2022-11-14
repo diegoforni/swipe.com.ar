@@ -5185,6 +5185,7 @@ body {
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action {
   background-attachment: fixed;
+  background-size: cover;
 }
 
 
