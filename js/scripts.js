@@ -722,7 +722,7 @@ $(document).ready(function () {
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     // true for mobile device
-    document.getElementsById("contacto")[0].setAttribute("class", "iOS-device");;
+    var dontknowwhattodo = true;
   }else{
     function mousecursor() {
         if ($("body")) {
