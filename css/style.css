@@ -5185,8 +5185,6 @@ body {
 /* ====================== [ Start Call To Action  ] ====================== */
 .call-action {
   background-attachment: fixed;
-}
-.iOS-device {
   will-change: transform;
 }
 
