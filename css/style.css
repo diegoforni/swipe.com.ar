@@ -3370,18 +3370,6 @@ body {
   position: relative;
 }
 
-.about-us .img:before {
-  content: '';
-  position: absolute;
-  top: -50px;
-  right: 0;
-  width: 400px;
-  height: 400px;
-  background-image: url(../img/dots.png);
-  background-repeat: repeat;
-  opacity: .3;
-  z-index: -1;
-}
 
 .about-us .img .stauts {
   position: absolute;
