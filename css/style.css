@@ -4043,9 +4043,7 @@ body {
 /* ====================== [ End progress bar ] ====================== */
 
 /* ====================== [ Start Call To Action  ] ====================== */
-.call-action {
-  background-attachment: fixed;
-}
+
 
 .call-action .content h6 {
   color: #12c2e9;
