@@ -2183,6 +2183,18 @@ body {
 
 /* ====================== [ End navbar ] ====================== */
 /* ====================== [ Start Slider ] ====================== */
+.notiOS-device {
+  background-attachment: fixed;
+}
+.iOS-device {
+  background-size: cover;
+  resize: both;
+}
+.swiper-mobile{
+  max-height: 85vh !important;
+}
+
+
 .slider {
   position: relative;
 }
