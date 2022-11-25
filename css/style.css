@@ -110,6 +110,7 @@ a:hover, span:hover {
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  white-space: nowrap;
 }
 
 .line {
@@ -269,6 +270,8 @@ a:hover, span:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: flex-end;
+
 }
 
 .primery-shadow {
