@@ -675,6 +675,12 @@ Pace.on('done', function () {
     $('.loading').addClass("isdone");
 });
 
+setTimeout(function(){
+
+    $('.loading').addClass("isdone");
+
+}, 2900);
+
 
 /* ===============================  Scroll back to top  =============================== */
 
