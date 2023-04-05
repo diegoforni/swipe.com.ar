@@ -639,11 +639,11 @@ Pace.on('done', function () {
 });
 
 setTimeout(function(){
-
-    $('.loading').addClass("isdone");
-
-}, 2900);
-
+    preload.remove();
+    loading.remove();
+    child = document.getElementById('cuerpo').childNodes[0];
+    child.classList.add("pace-inactive");
+}, 8000);
 
 /* ===============================  Scroll back to top  =============================== */
 
